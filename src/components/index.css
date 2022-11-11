@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&family=Handlee&family=Open+Sans:wght@300&family=Oswald&family=Roboto&display=swap');
+/* Headers Start */
+.Headers__Mian{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 2rem;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+    color: white;
+}
+
+.links{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+
+.icon{
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.Header__Btn{
+    padding: 10px;
+    background-color: white;
+    outline: none;
+    border: 1.5px solid gray;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@media screen and (max-width:800px){
+    .image{
+       display: none;
+    }
+    .Headers__icons{
+        display: none;
+    }
+}
+
+/* Headers End */
+
+
+/* Intro Section Starts */
+
+.helium-button{
+    /* color: #db3eb1; */
+    color: black;
+    border: 6px solid #db3eb1;
+    border-radius:15px;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing:5px;
+    cursor: pointer;
+    font-weight: bold;
+    filter: drop-shadow(0 0 10px #db3eb1) drop-shadow(0 0 40px #db3eb1) contrast(2) brightness(1);
+    transition: .5s;
+    margin-top: 50px;
+  }
+  
+  .helium-button:hover {
+    color: black;
+    background-color: #db3eb1;
+    filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+  }
+
+  .skills{
+    font-size: 30px;
+  }
+
+  .name{
+    font-family: 'Roboto', sans-serif
+  }
+   
+  .skills-info{
+    font-family: 'Roboto', sans-serif
+  }
+
+  .info{
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .Intro__Main{
+    display: flex;
+  }
+
+  .Intro__Text{
+    flex: 1;
+    width: 40%;
+    color: white;
+  }
+
+
+  @media screen and (max-width:800px){
+    .Intro__Main{
+        flex-direction: column-reverse;
+    }
+    .Intro__Text{
+      width: 100%;
+    }
+  }
+
+  
+  /* Intro Complete/ */
+
+
+  /* Skills Start */
+    .SkillsMain{
+      background-color: black;
+      height: 300px;
+      width: 70%;
+      margin-left: 13%;
+      margin-top: 50px;
+      border-radius: 20px;
+      color: white;
+    }
+    
+    .SkillsMain p{
+      font-family: 'Roboto', sans-serif;
+      width: 80%;
+      margin-left: 10%;
+      letter-spacing: 3px;
+      line-height: 1.3rem;
+    }
+   
+
+    .Progress{
+      width: 100px;
+      height: 100px;
+      margin: 0px;
+    }
+    
+  /* Skills End */
